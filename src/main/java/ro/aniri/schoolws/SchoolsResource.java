@@ -120,6 +120,7 @@ public class SchoolsResource {
 
     private Query buildAreaQuery(SecurityContext sc, double lat, double lng, int radius) {
         // get aproximate max and min lat and lng
+        // https://stackoverflow.com/questions/7477003/calculating-new-longtitude-latitude-from-old-n-meters
         double oneMeterInDegrees = 1.0/111000;
         
         double diff_lat = radius * oneMeterInDegrees;
