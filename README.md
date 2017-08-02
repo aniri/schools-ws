@@ -2,6 +2,8 @@
 
 Demo webservice using schools data from Romania. Uses the datasets from http://data.gov.ro/dataset/coordonate-geografice-unitati-de-invatamant-geocodare and http://data.gov.ro/dataset/reteaua-scolara-a-unitatilor-de-invatamant-2016-2017. The data was merged into one smaller table containing only: siiir code, school name, school city, school county and coordonates.
 
+View demo on heroku: https://obscure-bastion-43499.herokuapp.com/schools
+
 Uses:
 * [Jersey](https://jersey.github.io/) - framework for developing RESTful Web Services in Java that provides support for JAX-RS APIs
 * [Jetty](http://www.eclipse.org/jetty/) web server
