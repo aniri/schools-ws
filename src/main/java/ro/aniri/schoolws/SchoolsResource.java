@@ -40,6 +40,7 @@ public class SchoolsResource {
         html.append("<h2>Usage</h2>");
         html.append("<p>/licee?judet=AB -> two letter county code or B for Bucharest -> returns schools from county in json format</p>");
         html.append("<p>/licee?lat=CENTER_LATITUDE_VALUE&lng=CENTER_LONGITUDE_VALUE&radius=VALUE_IN_METRES -> returns schools from selected area in json format</p>");
+        html.append("<p>add &key=123456 to view complete results</p>");
                 
         return Response.ok(html.toString()).build();
     }
