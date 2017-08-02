@@ -18,4 +18,4 @@ Usage:
 * http://localhost:8080/schools/ - view info
 * http://localhost:8080/schools/licee?judet=AR two letter county code or B for Bucharest -> returns the schools from county in json format 
 * http://localhost:8080/schools/licee?lat=CENTER_LATITUDE_VALUE&lng=CENTER_LONGITUDE_VALUE&radius=VALUE_IN_METRES -> returns the schools from the selected area in json format
-* has very basic authorisation method: previous url return the first 6 entries. Use the key parameter (demo api-key value is 123456) to get all results. Example http://localhost:8080/schools/licee?judet=AR&key=123456
+* has very basic authorisation method: the previous urls return only the first 6 entries. Use the key parameter (demo api-key value is 123456) to get all results. Example http://localhost:8080/schools/licee?judet=AR&key=123456
